@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>О фильме — Venom 2</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="primary-bg">
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="logo-link">
+        <img width="46" height="71" src="img/logo.png" alt="logo: venom" class="logo-image" />
+      </a>
+      <nav class="nav">
+        <button class="menu-button">
+          <span class="menu-button-text">Меню</span>
+          <img src="img/menu.svg" alt="icon: burger menu" class="menu-button-icon" />
+        </button>
+        <button class="menu-button-close">
+          <span class="menu-button-text">Закрыть</span>
+          <img src="img/arrow.svg" alt="icon: burger menu" class="menu-button-icon" />
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="about.html" class="nav-menu-link">О фильме</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="actors.html" class="nav-menu-link">Актеры</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="premier.html" class="nav-menu-link">Актёры о фильме</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="col">
+        <h2 class="content-title">О фильме</h2>
+        <p class="content-text">
+          В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов
+          Marvel.
+        </p>
+        <h3 class="content-subtitle">Случайный факт</h3>
+        <ul class="list column-3">
+          <li class="list-item"> Фильм «Веном» был одновременно и провалом со стороны критиков, и огромным хитом. Том Харди выложился на все сто, чтобы сыграть Эдди Брока и Венома, и продолжение фильма не заставило себя долго ждать. Веном 2- может показаться несколько странным с точки зрения канона супергероев, но фильм придется по вкусу многим поклонникам комиксов. Вот 20 фактов об этом необычном сиквеле.</li>
+        </ul>
+       
+        <div class="trailer">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kOF4p_bCLJs?si=D2Yum-y_zVaL0Cx6&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- /.trailer -->
+      </div>
+      <!-- /.col -->
+      <div class="col">
+        <div class="poster-wrapper">
+          <img src="img/poster.jpg" alt="photo: poster venom 2" class="poster" />
+          <div class="creators">
+            <h3 class="content-subtitle">Название фильма</h3>
+            <ul class="list">
+              <li class="list-item">Изменили</li>
+            </ul>
+            <h3 class="content-subtitle">Вместо</h3>
+            <ul class="list">
+              <li class="list-item">Веном</li>
+              <li class="list-item">Да будет Карнаж</li>
+            </ul>
+            <h3 class="content-subtitle">Должно было быть</h3>
+            <ul class="list">
+              <li class="list-item">Да</li>
+              <li class="list-item">Будет</li>
+              <li class="list-item">Двойня!</li>
+            </ul>
+          </div>
+        </div>
+        <!-- /.creators -->
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.container -->
+
+  <div class="hide-form">
+    <button class="order-trigger">
+      — И куда едем?
+    </button>
+    <div class="order-ticket">
+      <form class="order-ticket__form">
+        <fieldset class="order-ticket__form-wrapper">
+          <legend class="order-ticket__title">Заполните форму</legend>
+          <small class="order-ticket__description">И получите на почту расписание ближайших сеансов в вашем городе и возможные акции</small>
+          <label class="order-ticket__label">
+            <input class="order-ticket__input" type="text" required name="name">
+            <span class="order-ticket__label-text">Имя</span>
+          </label>
+          <label class="order-ticket__label">
+            <input class="order-ticket__input" type="text" name="surname">
+            <span class="order-ticket__label-text">Фамилия</span>
+          </label>
+          <label class="order-ticket__label">
+            <input class="order-ticket__input" type="text" required name="city">
+            <span class="order-ticket__label-text">Город</span>
+          </label>
+          <label class="order-ticket__label order-ticket__label-focus">
+            <input class="order-ticket__input" type="email" required name="mail">
+            <span class="order-ticket__label-text">e-mail</span>
+          </label>
+          <label class="order-ticket__label">
+            <input class="order-ticket__checkbox" type="checkbox" required name="personal" value="agree">
+            <span class="order-ticket__label-checkbox-text">Я согласен на обработку моих <a href="#">персональных данных</a></span>
+          </label>
+          <button>Отправить</button>
+        </fieldset>
+        <div class="order-ticket__preloader-wrapper">
+          <video loop muted autoplay playsinline src="img/6.mp4" type="video/mp4"></video>
+        </div>
+        <fieldset class="order-ticket__thanks-wrapper">
+          <legend>Спасибо <span class="order-ticket__thanks-name">-имя-</span></legend>
+          <p>Вам на почту в скором времени будет отправлено письмо с расписание сеансов в вашем городе</p>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
