@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    max-width: 100%;
+    height: 95px;
+    background-color: rgb(168, 168, 168)
+
+    
+}
+.header_inner{
+    display: flex;
+    justify-content: space-around;
+}
+.header_menu{
+    max-width: 800px;
+}
+.Logo_text{
+    color: #000;
+    margin-top: 12px;
+    font-size: 29px;  
+}
+.menu_list{
+    margin-top: 35px;
+    font-size: 24px;
+    list-style-type: none;
+    width: 800px;
+    color: #000;
+    display: flex;
+    justify-content: space-around; 
+}
+.main_block{
+    width: 100%;
+    height: 846px;
+}
+.main_split{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.main_zagolovok{
+    max-width: 435px;
+    color: #73B971;
+    margin-top: 126px;
+}
+.main_podzagolovok{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.svoi{
+    color: #73B971;
+}
+.main_opisanie{
+    max-width: 600px;
+    line-height: 28px;
+    font-size: 22px;
+    margin-top: 46px;
+}
+.main_button{
+    width: 361px;
+    height: 76px;
+    color: #fff;
+    background-color:#73B971;
+    border: 0px;
+    border-radius: 17px;
+    font-size: 26px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.chiken{
+    margin-top: 62px;
+}
+.goose_pic{
+    margin-top: 49px;
+}
+
+.farm_gallery{
+    height: 834px;
+    color: #fff;
+    background-color: #73B971;
+}
+.farm_info{
+    height: 130px;
+    width: 506px;
+    line-height: 26px;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+.farm_zagolovok{
+    font-size: 40px;
+
+}
+.farm_text{
+    padding-top: 64px;
+    display: flex;
+    margin-left: 100px;
+}
+.farm_photos{
+    min-width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.organic_zakaz{
+    height: 1282px;
+    width: 100%;
+}
+.organic_zagolovok{
+    font-size: 48px;
+    margin-top: 52px;
+    position: relative;
+}
+.tovary{
+    width: 1124px;
+    height: 783px;
+    margin: 0 auto;
+    margin-top: 82px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tovar{
+    width: 505px;
+    height: 361px;
+    background-color: #73B971;
+    border-radius: 40px;
+    margin-right: 42px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.tovar_zagolovok{
+    margin-top: 42px;
+    font-size: 30px;
+}
+.tovar_text{
+    text-align: left;
+    margin-top: 50px;
+    max-width: 384px;
+    margin-left:60px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.egg_1{
+    position: absolute;
+    right: 400px;
+    bottom:250px;
+}
+.egg_2{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.maslo{
+    position: absolute;
+    right: 400px;
+    bottom:270px;
+}
+.kapusta{
+    position: absolute;
+    left: 380px;
+    top:270px;
+
+}
+.chiclen_2{
+    position: absolute;
+    left: 1200px;
+}
+.beru_btn{
+    width: 361px;
+    height: 76px;
+    color: #fff;
+    background-color:#73B971;
+    border: 0px;
+    border-radius: 17px;
+    font-size: 26px;
+    margin-top: 26px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+
+.ecology{
+    height: 875px;
+}
+.chicken_and_duck{
+    text-align: center;
+    margin-top: 80px;
+}
+.duck_split{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 37px;
+}
+.garden{
+    height: 1024px;
+    background-color:#73B971;
+    color: #fff;
+}
+.garden_zagolovok{
+    padding-top: 45px;
+    margin-bottom:52px;
+    font-size: 48px;
+}
+.garden_text{
+    width: 515px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 594px;
+}
+.garden_pictures{
+    width: 100%;
+    margin-top: 117px;
+    display: flex;
+    justify-content: space-around;
+}
+.milk_cow{
+    height: 770px;
+}
+.milk_cow_zagolovok{
+    padding-top: 40px;
+    text-align: center;
+}
+.cow_info{
+    margin-top: 87px;
+    display: flex;
+}
+.cow_text{
+    width: 497px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-top: 57px;
+}
+.eco_packaging{
+    height: 456px;
+    background-color: #73B971 ;
+    color: #fff;
+}
+.packaging_split{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.packaging_text{
+    margin-top: 84px;
+}
+.egg_pic{
+    margin-top: 159px;
+}
+.packaging_txt{
+    margin-top: 25px;
+    font-size: 23px;
+    line-height: 28px;
+}
+.packaging_zagolovok{
+    font-size: 48px;
+    text-align: center;
+}
+.delivery{
+    height: 813px;
+    margin-top: 83px;
+}
+.delivery_split{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.delivery_zagolovok{
+    font-size: 48px;
+    margin-bottom: 43px;
+}
+.main_text_delivery{
+    font-size: 23px;
+    line-height: 29px;
+    width: 460px;
+}
+.fw{
+    font-weight: bold;
+}
+.text_delivery{
+    font-size: 48px;
+    line-height: 62.5px;
+    margin-top: 200px;
+}
+.delivery_button{
+    width: 361px;
+    height: 76px;
+    color: #fff;
+    background-color:#73B971;
+    border: 0px;
+    border-radius: 17px;
+    font-size: 20px;
+    margin-top: 140px;
+    cursor: pointer;
+    display: block;
+    margin-left: 50px;
+}
+.footer{
+    height: 298px;
+    background-color: #1C1919;;
+    color: #fff;
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 47px;
+}
+.Menu_txt{
+    color: #73B971;
+    margin-bottom: 6px;
+    font-size: 32px;
+}
+.contact_txt{
+    color: #73B971;
+    margin-bottom: 6px;
+    font-size: 32px;
+}
+.footer_Ul:not(:last-child){
+    margin-bottom: 14px;
+}
+.footer_Ul{
+    font-size: 20px;
+}
